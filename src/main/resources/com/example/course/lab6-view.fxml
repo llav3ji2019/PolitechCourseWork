@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #68D97C;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.course.Lab6Controller">
+    <children>
+        <AnchorPane layoutY="74.0" prefHeight="427.0" prefWidth="600.0" style="-fx-background-color: #FFFFFF;">
+            <children>
+                <Label layoutX="14.0" layoutY="407.0" prefHeight="11.0" prefWidth="181.0" style="-fx-background-color: #FFFFFF;" text="Copyright ©Emelyanov P A 2023">
+                    <font>
+                        <Font name="Arial Bold Italic" size="10.0" />
+                    </font>
+                </Label>
+                <Label layoutX="28.0" layoutY="23.0" style="-fx-background-color: #FFFFFF;" text="Laboratory 6( Supervisor )" wrapText="true">
+                    <font>
+                        <Font name="Arial Bold" size="18.0" />
+                    </font>
+                </Label>
+                <Button fx:id="executeBtn" layoutX="357.0" layoutY="15.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="130.0" style="-fx-background-radius: 20; -fx-background-color: #CBEC92; -fx-padding: 10;" text="Execute" textFill="#618d16">
+                    <font>
+                        <Font name="Arial" size="14.0" />
+                    </font>
+                </Button>
+            <Label layoutX="28.0" layoutY="64.0" style="-fx-background-color: #FFFFFF;" text="Output" textFill="#0f545d" wrapText="true">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="homeBtn" fitHeight="44.0" fitWidth="44.0" layoutX="530.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@home.jpg" />
+               </image>
+            </ImageView>
+            <TextArea fx:id="outputLabel" editable="false" layoutX="17.0" layoutY="93.0" prefHeight="283.0" prefWidth="566.0" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="200.0" layoutY="14.0" text="Сourse project" textFill="#127423">
+            <font>
+                <Font name="Franklin Gothic Demi Cond" size="36.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
